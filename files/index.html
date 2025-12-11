@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vishwajeet — Portfolio</title>
+  <meta name="description" content="Personal portfolio — Graphic & UI Designer, Business Developer, Digital Marketer, Front-end Developer (AI-assisted)." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#intro">Vishwajeet</a>
+      <nav class="nav" id="nav">
+        <a href="#intro">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Intro -->
+    <section id="intro" class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-text">
+          <h1>Bold digital experiences powered by craft & AI</h1>
+          <p class="lead">I design vibrant interfaces, build engaging front-ends, grow businesses, and run data-driven marketing — amplified with AI to move faster and smarter.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#projects">See Projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact Me</a>
+            <a class="btn btn-alt" href="#" id="downloadCv">Download CV</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <!-- Placeholder illustration -->
+          <div class="avatar">
+            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="avatar">
+              <defs>
+                <linearGradient id="g" x1="0" x2="1">
+                  <stop offset="0" stop-color="#ff7ad1"/>
+                  <stop offset="1" stop-color="#7a5cff"/>
+                </linearGradient>
+              </defs>
+              <rect width="120" height="120" rx="16" fill="url(#g)"/>
+              <g transform="translate(16,18)" fill="#fff" opacity="0.95">
+                <circle cx="44" cy="30" r="18"/>
+                <rect x="8" y="64" width="72" height="18" rx="4"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2 class="section-title">About Me</h2>
+        <p>I’m a multidisciplinary creative who blends design, development, marketing, and business strategy. I craft UI systems, deploy front-end sites, run campaigns that convert, and scale partnerships — all with AI tools that speed ideation, testing, and optimization.</p>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Design & UI</h3>
+            <p>Pixel-precise UI, brand systems, and production-ready assets. I use AI-assisted moodboards, rapid prototyping, and pattern libraries to accelerate creative quality.</p>
+          </div>
+          <div class="about-card">
+            <h3>Business Development</h3>
+            <p>Opportunity discovery, GTM strategies, partner outreach, and sales enablement. AI supports lead research, outreach personalization, and forecasting.</p>
+          </div>
+          <div class="about-card">
+            <h3>Digital Marketing</h3>
+            <p>Performance marketing, content funnels, SEO, and analytics. AI helps with content generation, A/B testing hypotheses, and campaign optimization.</p>
+          </div>
+          <div class="about-card">
+            <h3>Front-end Development</h3>
+            <p>Responsive HTML/CSS/JS, accessible UI, and fast delivery. I combine hand-crafted code with AI-assisted scaffolding and testing to ship production code quickly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-skills">
+      <div class="wrap">
+        <h2 class="section-title">Skills</h2>
+        <p class="muted">Core strengths and AI-enhanced capabilities.</p>
+
+        <div class="skills-grid">
+          <ul class="skill-list">
+            <li><strong>Graphic / UI Design</strong><span>— Branding, iconography, Figma/Sketch, design systems. AI: auto-layout suggestions, style exploration, accessibility checks.</span></li>
+            <li><strong>Front-end Development</strong><span>— HTML, CSS (Flex/Grid), JS, React basics, performance optimization. AI: scaffold components, linting, accessibility hints.</span></li>
+          </ul>
+
+          <ul class="skill-list">
+            <li><strong>Digital Marketing</strong><span>— SEO, paid ads, email funnels, analytics. AI: creative generation, keyword research, bid strategy simulations.</span></li>
+            <li><strong>Business Development</strong><span>— GTM, partnership strategy, outreach. AI: prospect scoring, personalized outreach templates, pipeline forecasts.</span></li>
+          </ul>
+
+          <ul class="skill-list">
+            <li><strong>Tools</strong><span>— Figma, Adobe CC, VS Code, Lighthouse, GA4, HubSpot.</span></li>
+            <li><strong>Soft Skills</strong><span>— Strategy, cross-functional leadership, rapid prototyping, data-driven iterations.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section-projects">
+      <div class="wrap">
+        <h2 class="section-title">Selected Projects</h2>
+        <p class="muted">A taste of what I build — from brand systems to growth campaigns and front-end builds. Each project leveraged AI to speed research, ideation, or delivery.</p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-thumb" aria-hidden="true"></div>
+            <div class="project-body">
+              <h3>Brand Refresh for Fintech Startup</h3>
+              <p>Led UI/visual identity and marketing site. AI used for rapid moodboard exploration and copy variations. Result: 28% higher sign-ups in month one.</p>
+              <p class="meta"><strong>Role:</strong> UI + Front-end. <strong>Stack:</strong> Figma, HTML/CSS, JS.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb" aria-hidden="true"></div>
+            <div class="project-body">
+              <h3>Performance Marketing Funnel</h3>
+              <p>Full funnel campaign (ads → landing → email nurture). AI generated creatives, ad copy variants, and subject-line tests. Achieved 42% lift in conversion rate.</p>
+              <p class="meta"><strong>Role:</strong> Digital Marketing. <strong>Tools:</strong> GA4, Ads, HubSpot.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb" aria-hidden="true"></div>
+            <div class="project-body">
+              <h3>Interactive Product Microsite</h3>
+              <p>Built a lightweight, accessible microsite with animated product demos and A/B tests. AI helped generate test variations and analyze results.</p>
+              <p class="meta"><strong>Role:</strong> Front-end Dev. <strong>Stack:</strong> HTML, CSS, Vanilla JS.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb" aria-hidden="true"></div>
+            <div class="project-body">
+              <h3>Partnership Growth Playbook</h3>
+              <p>Developed a playbook and outreach templates that scaled partner acquisition. AI-powered prospect lists and personalized outreach templates saved weeks of manual work.</p>
+              <p class="meta"><strong>Role:</strong> Business Dev. <strong>Outcome:</strong> 5 new partnerships in Q1.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section section-experience">
+      <div class="wrap">
+        <h2 class="section-title">Experience Summary</h2>
+        <p class="muted">A compact timeline showing leadership across design, growth, marketing, and engineering — powered by data and AI-driven workflows.</p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Senior UI / Graphic Designer — Freelance</h3>
+            <p class="meta">2021 — Present</p>
+            <ul>
+              <li>Designed brand systems, UI kits, and marketing assets for startups and agencies.</li>
+              <li>Used AI to auto-generate concept sets, speed exports, and maintain consistency across responsive breakpoints.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <h3>Digital Marketing & Growth — Agency</h3>
+            <p class="meta">2019 — 2021</p>
+            <ul>
+              <li>Ran multi-channel campaigns (PPC, display, email) and improved ROI via iterative testing.</li>
+              <li>Applied AI for rapid ad copy generation, multivariate testing, and predictive budget allocation.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <h3>Front-end Developer — Product Team</h3>
+            <p class="meta">2017 — 2019</p>
+            <ul>
+              <li>Built fast, accessible landing pages and dynamic UI components.</li>
+              <li>Adopted AI tools for scaffolding and automated component tests to shorten release cycles.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <h3>Business Development — Partnerships</h3>
+            <p class="meta">2015 — 2017</p>
+            <ul>
+              <li>Secured strategic partnerships, client deals and co-marketing initiatives.</li>
+              <li>Utilized AI to identify high-value prospects and personalize outreach at scale.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-contact">
+      <div class="wrap">
+        <h2 class="section-title">Contact</h2>
+        <p class="muted">Let’s collaborate. I’m open to contract and full-time roles in design, product, marketing, or front-end development.</p>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Get in touch</h3>
+            <p><strong>Email:</strong> <a href="mailto:you@example.com">you@example.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+1234567890">+1 234 567 890</a></p>
+            <p><strong>Location:</strong> Remote / City, Country</p>
+            <p class="muted">LinkedIn / Dribbble / GitHub: replace with real links</p>
+          </div>
+
+          <form id="contactForm" class="contact-form" action="#" method="post" novalidate>
+            <label>
+              Your name
+              <input type="text" name="name" required placeholder="Jane Doe" />
+            </label>
+            <label>
+              Your email
+              <input type="email" name="email" required placeholder="you@example.com" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" required placeholder="Brief description of your project or role"></textarea>
+            </label>
+            <div class="form-row">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+              <button type="button" id="downloadCv2" class="btn btn-ghost">Download CV</button>
+            </div>
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>© <span id="year"></span> Vishwajeet. Built with a focus on clarity, speed, and AI-assisted productivity.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
